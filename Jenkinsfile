@@ -1,6 +1,6 @@
 pipeline {
     
-    agent { 'label' 'linux'}
+    agent { 'label' 'javabuild'}
     stages{
 
         stage("build-the-source-code"){
